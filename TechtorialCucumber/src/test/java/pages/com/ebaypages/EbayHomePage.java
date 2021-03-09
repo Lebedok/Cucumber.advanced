@@ -13,6 +13,7 @@ public class EbayHomePage {
 
     @FindBy(id = "gh-ac")
     public WebElement searchBox;
+    
 
     @FindBy(id = "gh-btn")
     public WebElement searchButton;
