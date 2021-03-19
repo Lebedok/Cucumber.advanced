@@ -11,6 +11,7 @@ public class EbayHomePage {
         PageFactory.initElements(driver, this);
     }
 
+    
     @FindBy(id = "gh-ac")
     public WebElement searchBox;
     
